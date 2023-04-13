@@ -132,7 +132,7 @@ static void consumer(int fd)
 				saw_key_change(&n.n, len);
 				break;
 			default:
-				printf("other type\n");
+				printf("other watch type\n");
 				break;
 			}
 
